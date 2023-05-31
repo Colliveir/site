@@ -35,7 +35,7 @@ header {
 /* introduction */
 .introduction {
     padding: 70px 0 20px 0;
-    background-image: url(/images/Background.png);
+    background-image: url(images/background.png);
     background-repeat: no-repeat;
 }
 
@@ -69,7 +69,7 @@ header {
 
 .projects {
     padding: 70px 20px;
-    background-image: url(images/Background.png);
+    background-image: url(images/background.png);
     background-repeat: no-repeat;
 }
 

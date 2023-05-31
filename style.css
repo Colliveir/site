@@ -305,5 +305,8 @@ footer a {
     .footermobile {
         display: block;
     }
+    .logofootermobile img{
+        width:18%;
+    }
     /* END FOOTER */
 }

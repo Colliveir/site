@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+/* Geral */
+.title {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/* Geral */
+
+/* header & menu */
+.menumobile {
+    display: none;
+}
+
+header {
+    height: 85px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.logoHeader {
+    float: left;
+    width: 280px;
+    margin-left: 5%;
+}
+
+/* header & menu */
+
+/* introduction */
+.introduction {
+    padding: 70px 0 20px 0;
+    background-image: url(images/Background.png);
+    background-repeat: no-repeat;
+}
+
+.ini {
+    padding: 15%;
+}
+
+.introductionMobile {
+    display: none;
+}
+
+/* introduction */
+
+/* end howorks */
+.howorks {
+    background-color: aliceblue;
+    padding: 80px 0 100px 0;
+}
+
+.howorks img {
+    width: 50%;
+}
+
+.howorksMobile {
+    display: none;
+}
+
+/* end howorks */
+
+/* PROJECTS */
+
+.projects {
+    padding: 70px 20px;
+    background-image: url(images/Background.png);
+    background-repeat: no-repeat;
+}
+
+.projects img {
+    width: 80%;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.projectsMobile {
+    display: none;
+}
+
+/* END PROJECTS */
+
+/* DEPOIMENTOS */
+.depoimentos {
+    background-color: rgb(240, 240, 240);
+    padding: 50px 0;
+}
+
+
+.depoimentos-box {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 90%;
+    display: block;
+}
+
+.depoimento-single {
+    width: 99%;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.depoimento-single p {
+    margin-bottom: 15px;
+}
+
+.depoimentos img {
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.slick-dotted ul {
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.slick-dotted li {
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.slick-dotted button:focus {
+    outline: 0;
+}
+
+.slick-dotted li button {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    color: black;
+    font-size: 0px;
+    border-width: 0;
+    background: black;
+    opacity: 1;
+    cursor: pointer;
+}
+
+li.slick-active button {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 0px;
+    background: url(images/deathstar.png);
+}
+
+.slick-slide:focus {
+    outline: none;
+}
+
+/* END DEPOIMENTOS */
+
+/* quem somos */
+.qs {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* END quem somos */
+
+/* contato */
+
+.contato img {
+    margin: 5px 15px;
+    padding: 10px;
+    transition: all .6s;
+    width: 50px;
+}
+
+.contato img:hover {
+    border-radius: 10%;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    -webkit-box-shadow: 0px 0px 31px 2px rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: 0px 0px 31px 2px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 31px 2px rgba(255, 255, 255, 0.2);
+}
+
+/* end contato */
+
+/* FOOTER */
+.footermobile {
+    display: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.icons {
+    margin: 0 auto;
+}
+
+/* END FOOTER */
+@media (max-width: 768px) {
+
+    /* MENU MOBILE */
+    .menu {
+        display: none;
+    }
+
+    .menumobile {
+        display: block;
+    }
+
+    .logoheadermobile {
+        width: 250px;
+    }
+
+    .dropdown {
+        float: right;
+    }
+
+    .dropdown a {
+        text-decoration: none;
+
+    }
+
+    .hamb {
+        width: 30px;
+    }
+
+    .hamback {
+        padding: 5px !important;
+    }
+
+    /* END MENU MOBILE */
+
+
+    /* INTRODUCTION */
+    .introductionMobile {
+        padding: 50px 0;
+        display: block;
+        background-image: url(images/backgroundmobile.png);
+    }
+
+    .inimobile {
+        padding: 2%;
+    }
+
+    .inimg {
+        width: 100%;
+    }
+
+    .introduction {
+        display: none;
+    }
+
+    /* END INTRODUCTION */
+
+    /* HOWORKSMOBILE */
+    .howorksMobile {
+        display: block;
+    }
+
+    .howorksMobile {
+        background-color: aliceblue;
+        padding: 80px 0 100px 0;
+    }
+
+    .howorksMobile img {
+        width: 50%;
+    }
+
+    .howorks {
+        display: none;
+    }
+
+    /* END HOWORKSMOBILE */
+
+    /* PROJECTS MOBILE */
+    .projects {
+        display: none;
+    }
+
+    .projectsMobile {
+        display: block;
+        padding: 30px 0;
+        background-image: url(images/backgroundmobile.png);
+    }
+
+    .projectsMobile img {
+        width: 98%;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0);
+    }
+
+    /* END PROJECTS MOBILE */
+
+    /* FOOTER */
+    .footer{
+        display: none;
+    }
+
+    .footermobile {
+        display: block;
+    }
+    /* END FOOTER */
+}

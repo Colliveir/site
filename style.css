@@ -10,6 +10,19 @@
     font-family: 'Bebas Neue', sans-serif;
 }
 
+.whats {
+    position: fixed;
+    top: 88%;
+    left: 93%;
+    z-index: 1;
+}
+
+.whats img {
+    width: 65%;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, .6));
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, .6));
+}
+
 /* Geral */
 
 /* header & menu */
@@ -203,6 +216,12 @@ footer a {
 
 /* END FOOTER */
 @media (max-width: 768px) {
+     /* GERAL */
+    .whats{
+        width: 20%;
+        left: 80%;
+    }
+    /* END GERAL */
 
     /* MENU MOBILE */
     .menu {

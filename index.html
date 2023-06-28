@@ -207,8 +207,59 @@
     </section>
     <!-- PROJECTS MOBILE -->
 
-    <!-- DEPOIMENTOS -->
-    
+   <!-- DEPOIMENTOS -->
+    <section class="depoimentos text-center" id="depoimentos">
+        <h2 class="title">Depoimentos</h2>
+        <div class="depoimentos-box">
+            <div class="depoimento-single">
+                <p>"Quero relatar meu agradecimento ao trabalho da Colliveir, que fez um trabalho incrível no meu portfólio. Ficou lindo e muito bem explicado, tive total atenção e pude tirar minhas dúvidas. <br>
+                    Parabéns pelo trabalho com dedicação e excelência."</p>
+                <img src="images/user.png" alt="Eliane">
+                <p>Eliane Nunes</p>
+            </div>
+            <div class="depoimento-single">
+                <p>"A Colliveir é uma empresa muito dedicada, pois eles oferecem um ótimo atendimento ao cliente e fazem ótimos sites. <br>
+                    Recomendo muito!"</p>
+                <img src="images/DianaAlmeida.jpg" alt="Diana">
+                <p>Diana Almeida</p>
+            </div>
+        </div>
+        <!--depoimentos-box-->
+    </section>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script type="text/javascript">
+        $('section.depoimentos-slider .slider-container').slick({
+            dots: true,
+            arrows: false,
+            infinite: false,
+            speed: 1000,
+            slidesToShow: 3,
+            autoplay: true,
+            centerMode: false,
+            autoplaySpeed: 3000,
+            pauseOnHover: false,
+            responsive:
+                [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    }
+                ]
+        });
+
+        $('section.depoimentos .depoimentos-box').slick({
+            dots: true,
+            arrows: false,
+            infinite: true,
+            speed: 1000,
+            slidesToShow: 1,
+            centerMode: false
+        });
+    </script>
     <!-- END DEPOIMENTOS -->
 
     <!-- Footer -->
